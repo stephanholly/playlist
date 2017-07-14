@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+    box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 84vh;
+  position:relative;
+  top: 0;
+}
+
+.text1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background1 {
+background: url("resources/track.fw.png")no-repeat right;
+filter: alpha(opacity=60);
+/* IE */
+-moz-opacity: 0.6;
+/* Mozilla */
+opacity: 0.6;
+/* CSS3 */
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-size: 50%;
+}
+
+
+.header {
+  height: 8vh;
+  background-color: #9B9B8C;
+  width: 100%;
+border-bottom: 1px solid black;
+}
+
+.footer{
+  height: 8vh;
+  background-color: #686859;
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.footer-text {
+  margin-top: 14px;
+  margin-left: 150px;
+  font-family: avenir;
+  font-size: 28px;
+  color: white;
+  font-weight: 100;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  display: inline-block;
+  float: left;
+}
+
+.track-bin {
+  position: relative;
+  text-align: center;
+  margin-top: 28vh;
+  font-size: 80px;
+  color: #4C0066;
+  font-family: avenir;
+  font-weight: 100;
+}
+
+.button1 {
+  text-align: center;
+}
+button {
+  position: relative;
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 36px;
+  background: #353526;
+  border-radius: 10px ;
+  font-family: avenir;
+  font-weight: 100;
+  color: white;
+  padding: 4px 40px 4px 40px;
+
+}
+
+.albums {
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+
+.album1 {
+  height: 26vh;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.album2 {
+  height: 26vh;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.album3 {
+  height: 26vh;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
